@@ -2,7 +2,7 @@
 ### Repositorio local en Windows 
 > Creamos un nuevo repositorio local en Git llamado Prueba2_Asier_Rodríguez.
 
-![alt text](/Repositorios/Prueba2_Asier_Rodriguez/Imagenes/imagen.png)
+![alt text](/Imagenes/imagen.png)
 
 >Ahora vamos a hacer un **`git init`** en la carpeta creada para hacerlo un repositorio local.
 
