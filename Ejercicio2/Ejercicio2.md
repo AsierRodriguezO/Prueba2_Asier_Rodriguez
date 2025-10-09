@@ -20,7 +20,7 @@ Write-Host "Hola, $nombre"
 
 Enlace externo: [Explorador de Google](https://google.es/)
 
-Enlace a otro fichero Markdown en el repositorio: [Readmi ejercicio 1](/Ejercicio1/ejercicio1.md)
+Enlace a otro fichero Markdown en el repositorio: [Markdown ejercicio 1](/Ejercicio1/Ejercicio1.md)
 
 ![Imagen de ejemplo](https://inkscape.app/wp-content/uploads/imagen-vectorial.webp)
 
