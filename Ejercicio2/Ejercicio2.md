@@ -2,16 +2,12 @@
 
 ## Subtítulo
 
-Este es un párrafo con **negrita**, *cursiva* y `por ejemplo esto está escrito en código`.
+Este es un párrafo con **negrita**, *cursiva* y `en código`.
 
 ```powershell
 # Ejemplo de script PowerShell
-function Saludo {
-    param([string]$Nombre)
-    return "Hola, $Nombre!"
-}
-
-Write-Output (Saludo -Nombre "Mundo")
+$nombre = "Asier"
+Write-Host "Hola, $nombre"
 ```
 
 1. Primer elemento
@@ -22,11 +18,11 @@ Write-Output (Saludo -Nombre "Mundo")
 - Elemento desordenado B
 - Elemento desordenado C
 
-Enlace externo: [MDN Web Docs](https://developer.mozilla.org/)
+Enlace externo: [Explorador de Google](https://google.es/)
 
-Enlace a otro fichero Markdown en el repositorio: [README](README.md)
+Enlace a otro fichero Markdown en el repositorio: [Readmi ejercicio 1](/Ejercicio1/ejercicio1.md)
 
-![Imagen de ejemplo](https://via.placeholder.com/300x150.png?text=Imagen+de+ejemplo)
+![Imagen de ejemplo](https://inkscape.app/wp-content/uploads/imagen-vectorial.webp)
 
 | Columna 1 | Columna 2 | Columna 3 |
 |-----------|-----------|-----------|
