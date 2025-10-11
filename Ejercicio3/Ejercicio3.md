@@ -17,26 +17,26 @@ git checkout Primera
 ```
 ![imagen](/Ejercicio3/imagenes/imagen%20(1).png)
 
-1. Crea un nuevo fichero, por ejemplo `fichero.txt`:
+2. Crea un nuevo fichero, por ejemplo `fichero.txt`:
 ```bash
 nano fichero.txt
 ```
 ![imagen](/Ejercicio3/imagenes/imagen%20(2).png)
 
-1. Añade el fichero al área de preparación y haz un commit:
+3. Añade el fichero al área de preparación y haz un commit:
 ```bash
 git add fichero.txt
 git commit -m "Añadimos el primer fichero"
 ```
 ![imagen](/Ejercicio3/imagenes/imagen%20(3).png)
 
-1. Cambia a la rama principal `master`:
+4. Cambia a la rama principal `master`:
 ```bash
 git checkout master
 ```
 ![imagen](/Ejercicio3/imagenes/imagen%20(4).png)
 
-1. Fusiona la rama `Primera` con la rama principal:
+5. Fusiona la rama `Primera` con la rama principal:
 ```bash
 git merge Primera
 ```
