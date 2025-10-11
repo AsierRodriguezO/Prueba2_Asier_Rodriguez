@@ -1,0 +1,5 @@
+<<<<<<< HEAD
+Este fichero va a generar conflicto seguro
+=======
+Aqui hay conflicto
+>>>>>>> Segunda
