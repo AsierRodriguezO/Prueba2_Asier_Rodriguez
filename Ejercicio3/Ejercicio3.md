@@ -41,3 +41,38 @@ git merge Primera
 ```
 ## ¿Se ha producido algún conflicto al fusionar las ramas? 
 > No, no se ha producido ningún conflicto al fusionar la rama `Primera` con la rama principal ya que solo se han realizado cambios en la nueva rama.
+
+6. Borramos la rama `Primera`:
+```bash     
+git branch -d Primera
+```     
+Comprobamos que la rama `Primera` ha sido eliminada:
+```bash
+git branch
+``` 
+
+7. creamos una nueva rama llamada `Segunda` y repetimos el proceso anterior.
+```bash
+git checkout -b Segunda
+nano conflicto.txt
+git add conflicto.txt
+git commit -m "Añadir conflicto.txt en la rama Segunda"
+git checkout main
+git merge Segunda
+```
+Modificamos el fichero `conflicto.txt` en la rama `main` para crear un conflicto:
+```bash 
+nano conflicto.txt
+```
+Añadimos y hacemos commit de los cambios en la rama `main`:
+```bash 
+git add conflicto.txt
+git commit -m "Modificar conflicto.txt en la rama main"
+git merge Segunda
+```
+
+hacemos una copia del conflicto para entrgarla
+
+8. solucionamos el conflicto y hacemos un commit.
+> Para solucionar el conflicto, abre el fichero `conflicto.txt` y busca las marcas de conflicto (`<<<<<<<`, `=======`, `>>>>>>>`). Edita el fichero para resolver el conflicto y luego guarda los cambios.
+.
